@@ -1,0 +1,190 @@
+.ticketdetail {
+    margin-top: 0.45rem;
+    background: #eee;
+}
+
+.detailmain {
+    background: #fff;
+    padding: 0.15rem;
+}
+
+.detailmain-l {
+    float: left;
+    margin-right: 10px;
+    width: 1rem;
+    height: 1.4rem;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+}
+
+.detailmain-r {
+    position: relative;
+    height: 1.4rem;
+    padding: 9px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    h3 {
+        height: .4rem;
+        line-height: .2rem;
+        font-size: .15rem;
+        font-weight: 400;
+    }
+    .detailmain-rb {
+        position: absolute;
+        bottom: 0;
+        font-size: .14rem;
+        .detailprice {
+            font-size: .18rem;
+            color: #f33f40;
+            span {
+                color: #333;
+                font-size: .11rem;
+            }
+        }
+    }
+}
+
+.timeandsite {
+    margin-top: 0.1rem;
+    padding: 0 0.15rem;
+    background: #fff;
+    line-height: .18rem;
+    font-size: .14rem;
+    .timeandsite-t {
+        padding: .15rem 0;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .timeandsite-b {
+        padding: .15rem 0;
+    }
+}
+
+.transferticketdetail {
+    overflow: hidden;
+    margin-top: .1rem;
+    background-color: #fff;
+    padding: 0.15rem;
+    font-size: 0.15rem;
+    .transferticketdetail-l {
+        float: left;
+        font-size: .15rem;
+        color: #f33f40;
+        font-weight: 700;
+        vertical-align: middle;
+        img {
+            height: .16rem;
+            margin-right: .08rem;
+        }
+    }
+    span {
+        font-size: 0.2rem;
+        float: right;
+        color: #aaa;
+    }
+}
+
+.performtext {
+    margin-top: .1rem;
+    background-color: #fff;
+    padding: 0.15rem;
+    h3 {
+        font-size: .15rem;
+        line-height: 0.28rem;
+        overflow: hidden;
+        span {
+            font-size: 0.2rem;
+            float: right;
+            color: #aaa;
+        }
+    }
+    .performtext-b {
+        max-height: 1.18rem;
+        margin-right: .14rem;
+        overflow: hidden;
+        line-height: .2rem;
+        color: #999;
+        font-size: .12rem;
+        white-space: pre-line;
+    }
+}
+
+.detailnotice {
+    margin-top: .1rem;
+    background-color: #fff;
+    padding: 0.15rem;
+    .noticetitle {
+        font-size: .15rem;
+        line-height: 0.28rem;
+    }
+    .noticetext {
+        line-height: .2rem;
+        color: #999;
+        font-size: .12rem;
+        white-space: pre-line;
+    }
+}
+
+.advice {
+    margin-top: .1rem;
+    margin-bottom: 0.8rem;
+    h3 {
+        padding: .15rem 0;
+        font-size: .15rem;
+        text-align: center;
+    }
+    ul {
+        overflow: hidden;
+        background-color: #fff;
+        padding: 0.15rem;
+        display: flex;
+        justify-content: space-between;
+        li {
+            width: 1.1rem;
+            margin-right: .075rem;
+            overflow: hidden;
+            img {
+                display: block;
+                width: 100%;
+                height: 1.5rem;
+                overflow: hidden;
+                border-radius: 3px;
+            }
+            p {
+                height: .3rem;
+                margin-top: .08rem;
+                font-size: .12rem;
+                line-height: .16rem;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+.advicemargin {
+    margin-bottom: 0.5rem;
+}
+
+.buyticket {
+    width: 100%;
+    max-width: 3.75rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    span {
+        font-size: 0.18rem;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: .09rem .2rem;
+        background-color: #f33f40;
+        border: 1px solid #f33f40;
+        box-sizing: border-box;
+    }
+}

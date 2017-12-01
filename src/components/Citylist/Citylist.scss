@@ -1,0 +1,39 @@
+.citylist {
+    background: #eee;
+    padding-top: 0.55rem;
+    font-size: 0.15rem;
+}
+
+.citycategory {
+    padding: 0.15rem;
+    background: #fff;
+    padding-top: 0.1rem;
+    padding-bottom: 0;
+    margin-bottom: 0.1rem;
+}
+
+.citybox {
+    overflow: hidden;
+    margin-top: 0.1rem;
+}
+
+.percity {
+    float: left;
+    color: #666;
+    margin-right: .14rem;
+    margin-bottom: .14rem;
+    padding: .03rem .2rem;
+    border: 1px solid #999;
+    border-radius: .04rem;
+}
+
+.nowcity {
+    .nowcity-t {
+        font-size: .15rem;
+        padding-bottom: .08rem;
+        img {
+            margin-right: .06rem;
+            width: .13rem;
+        }
+    }
+}
