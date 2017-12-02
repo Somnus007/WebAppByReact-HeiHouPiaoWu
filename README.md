@@ -7,7 +7,7 @@
 项目介绍：该项目是一个电影及演出售票类的B2C平台webapp
 
 涉及的技术栈：
-react / react-router / react-redux / thunk(middleware) / webpack / sass / iconfont / react-swipe
+react / react-router / react-redux / thunk(middleware) / webpack / sass / iconfont / react-swipe/
 redux dev tools / rem&flex布局 / git
 
 功能模块：首页、城市切换、搜索功能、产品列表、分类切换、详情页、购物车、分页功能
