@@ -16,3 +16,15 @@ redux dev tools / rem&flex布局 / git
 
 解决措施：使用react-redux进行状态管理，使用middleware：thunk辅助实现异步请求
 
+Get Started:
+
+<pre>
+  $ git clone https://github.com/Somnus007/WebAppByReact-HeiHouPiaoWu.git
+  
+  $ cd WebAppByReact-HeiHouPiaoWu
+  
+  $ npm install 
+  
+  $ npm run dev
+</pre>
+
